@@ -1,0 +1,39 @@
+@media screen and (min-width: 766px) {
+  .header .menu-icon {
+    display: none;
+  }
+  .header .nav {
+    display: block;
+  }
+  .header .nav ul {
+    display: flex;
+  }
+}
+@media screen and (min-width: 728px) {
+  .about-us .about-content {
+    width: 500px;
+  }
+  .services .services-content {
+    width: 500px;
+    margin: auto;
+  }
+  .photos .photos-content {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .photos .photos-content img {
+    margin: 0;
+    width: 100%;
+    box-shadow: none;
+  }
+}
+@media screen and (min-width: 800px) {
+  .photos .photos-content {
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
